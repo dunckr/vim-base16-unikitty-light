@@ -319,6 +319,12 @@ call <sid>hi("SpellLocal",   "", s:gui00, "", s:cterm00, "undercurl", s:gui0C)
 call <sid>hi("SpellCap",     "", s:gui00, "", s:cterm00, "undercurl", s:gui0D)
 call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
 
+" neomake
+call <sid>hi("NeomakeWarningSign",          "", s:gui0A, "", "", "bold", "")
+call <sid>hi("NeomakeErrorSign",          "", s:gui08, "", "", "bold", "")
+call <sid>hi("NeomakeMessageSign",          "", s:gui09, "", "", "bold", "")
+call <sid>hi("NeomakeInfoSigne",          "", s;gui0E, "", "", "bold", "")
+
 " Remove functions
 delf <sid>hi
 
