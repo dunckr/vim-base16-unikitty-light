@@ -325,6 +325,8 @@ call <sid>hi("NeomakeErrorSign",          "", s:gui08, "", "", "bold", "")
 call <sid>hi("NeomakeMessageSign",          "", s:gui09, "", "", "bold", "")
 call <sid>hi("NeomakeInfoSigne",          "", s:gui0E, "", "", "bold", "")
 
+hi IndentGuidesEven guibg=#F4F4F4
+
 " Remove functions
 delf <sid>hi
 
